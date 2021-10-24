@@ -1,5 +1,5 @@
 const canvas = document.getElementById("jsCanvas");
-const ctx = canvas.getContext("2d");
+const ctx = canvas.getContext("2d"); //픽셀 접근
 const colors = document.getElementsByClassName("jsColor");
 const range = document.getElementById("jsRange");
 const mode = document.getElementById("jsMode");
@@ -9,6 +9,7 @@ const ClearBtn = document.getElementById("jsClear");
 const INITIAL_COLOR = "#2c2c2c";
 const CANVAS_SIZE = 700;
 
+//픽셀 사이즈
 canvas.width = CANVAS_SIZE;
 canvas.height = CANVAS_SIZE;
 
